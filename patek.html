@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <style>
+      h1 {
+        text-align: center;
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .container {
+        max-width: 960px;
+      }
+
+      /*
+ * Custom translucent site header
+ */
+
+      .site-header {
+        background-color: rgba(0, 0, 0, 0.85);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+      }
+      .site-header a {
+        color: #8e8e8e;
+        transition: color 0.15s ease-in-out;
+      }
+      .site-header a:hover {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      /*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+      .product-device {
+        position: absolute;
+        right: 10%;
+        bottom: -30%;
+        width: 300px;
+        height: 540px;
+        background-color: #333;
+        border-radius: 21px;
+        transform: rotate(30deg);
+      }
+
+      .product-device::before {
+        position: absolute;
+        top: 10%;
+        right: 10px;
+        bottom: 10%;
+        left: 10px;
+        content: "";
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+      }
+
+      .product-device-2 {
+        top: -25%;
+        right: auto;
+        bottom: 0;
+        left: 5%;
+        background-color: #e5e5e5;
+      }
+
+      /*
+ * Extra utilities
+ */
+
+      .flex-equal > * {
+        flex: 1;
+      }
+      @media (min-width: 768px) {
+        .flex-md-equal > * {
+          flex: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-md">
+        <a class="navbar-brand" href="#">Simple Watches</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="index.html">Store</a>
+            <a class="nav-link" href="rolex.html">Rolex</a>
+            <a class="nav-link active" href="#">Patek Phillipe</a>
+            <a class="nav-link" href="ap.html">Audemars Piguet</a>
+            <a class="nav-link" href="omega.html">Omega</a>
+            <a class="nav-link" href="hublot.html">Hublot</a>
+            <a class="nav-link" href="teg.html">Teg Heuer</a>
+            <a class="nav-link disabled"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Patek Philippe watches</h1>
+            <p class="lead text-muted">
+              Our handpicked selection of the greatest vintage Patek Philippe
+              watches on earth. We help you find the perfect Patek Philippe just
+              for you.
+            </p>
+            <p>
+              <a href="#" class="btn btn-primary my-2"
+                >Contact our sales representative</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="assets/img/watches-for-sale/Patek01.webp"
+                  class="img-fluid rounded"
+                  alt="Responsive image"
+                  style="max-height: 700px"
+                />
+
+                <div class="card-body">
+                  <h5>Patek Philippe Nautilus 40mm</h5>
+                  <p class="card-text">
+                    This is a pre-owned Patek Philippe Nautilus 40th anniversary
+                    'single sealed' men's 5711/1P-001 watch. 40mm case size in
+                    platinum, blue diamond dial on a platinum bracelet, powered
+                    by an automatic movement. This Patek Philippe is in
+                    excellent condition complete with patek philippe box,
+                    manuals & guarantee dated 03-01-2017.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Contact us
+                      </button>
+                    </div>
+                    <small class="text-muted">2022-04-20</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="assets/img/watches-for-sale/Patek02.webp"
+                  class="img-fluid rounded"
+                  alt="Responsive image"
+                  style="max-height: 700px"
+                />
+
+                <div class="card-body">
+                  <h5>Patek Philippe Aquanaut 40mm</h5>
+
+                  <p class="card-text">
+                    This is a pre-owned Patek Philippe Aquanaut uncut strap
+                    men's 5167A-001 watch. 40.00mm case size in stainless steel,
+                    black dial on a black rubber bracelet, powered by an
+                    automatic movement. This Patek Philippe is in excellent
+                    condition complete with patek philippe box, manuals,
+                    booklets & dated guarantee dated 26-06-2021.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Contact us
+                      </button>
+                    </div>
+                    <small class="text-muted">2022-02-02</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="assets/img/watches-for-sale/Patek03.webp"
+                  class="img-fluid rounded"
+                  alt="Responsive image"
+                  style="max-height: 700px"
+                />
+
+                <div class="card-body">
+                  <h5>Patek Philippe Complications 36mm</h5>
+                  <p class="card-text">
+                    This is a pre-owned Patek Philippe Complications saatchi
+                    175th anniversary limited edition perpetual calendar
+                    retrograde men's 5050J-019 watch. 36.00mm case size in
+                    yellow gold, white baton dial on a brown alligator leather
+                    bracelet, powered by an automatic movement. This Patek
+                    Philippe is in good condition complete with patek philippe
+                    winding box, book, manuals & guarantee dated 18-04-2016.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Contact us
+                      </button>
+                    </div>
+                    <small class="text-muted">2022-03-21</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <small class="d-block mb-3 text-muted"
+            >Simply Watches &copy; 2022</small
+          >
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
